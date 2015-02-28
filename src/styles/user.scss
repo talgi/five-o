@@ -1,0 +1,17 @@
+.user {
+
+  .offline, .online {
+    position: relative;
+    background-color: red;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 3px
+  }
+
+  .online {
+    background-color: green;
+  }
+
+}

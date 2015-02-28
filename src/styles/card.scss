@@ -1,0 +1,24 @@
+.card {
+  position: relative;
+  width: 6vw;
+  height: 8.5vw;
+  margin: auto;
+  background: white;
+  background-size: 100% 100%;
+
+  &:hover {
+    z-index: 999;
+  }
+
+  $i: 0;
+  @while $i < 52 {
+    &.value-#{$i} { background-image: url(../images/classic-cards/#{$i+1}.png); }
+    $i: $i + 1;
+  }
+
+  &.upside:not(:hover), &.hidden {
+    background-image: url(../images/classic-cards/b1fv.png);
+  }
+}
+
+

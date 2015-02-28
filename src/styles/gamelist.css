@@ -1,0 +1,31 @@
+.games {
+  position:fixed;
+  height: 100%;
+  left:0;
+  width: 20%;
+  border-right: 1px solid black;
+  background-color: #191818;
+  color: #999;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+
+.games .gamedesc {
+  border-top: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.games .gamedesc:hover {
+  background-color: #333;
+}
+
+.games .gamedesc.shown {
+  background-color: #1f8dd6;
+  color: white;
+}
+
+
+
